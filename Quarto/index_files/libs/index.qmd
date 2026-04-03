@@ -1,0 +1,7 @@
+---
+title: 'Prueba'
+author: 'Los cuadernos'
+format: dashboard
+---
+
+Prueba de cuaderno en formato dashboard aaaaa.

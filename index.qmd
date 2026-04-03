@@ -1,14 +1,17 @@
 ---
-title: "Mi Historia con Scroll"
+title: "HACKODS"
+author: "Los cuadernos"
+project:
+  output-dir: docs
 format: 
   html:
     css: styles.css
     toc: true
     toc-location: left-body
-author: "Los cuadernos"
+
 ---
 
-## Una historia en movimiento
+## Una historia en movimiento a
 Había una vez un joven llamado Alex, que vivía en un pequeño pueblo rodeado de montañas. Desde niño, Alex había soñado con explorar el mundo más allá de su hogar. Un día, decidió emprender un viaje para descubrir nuevos lugares y conocer diferentes culturas.
 
 ## El viaje de Alex

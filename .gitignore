@@ -11,3 +11,5 @@ wheels/
 
 # BLOQUEO DE DATOS
 data/
+/.quarto/
+**/*.quarto_ipynb

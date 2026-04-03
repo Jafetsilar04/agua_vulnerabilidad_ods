@@ -1,11 +1,29 @@
 
 ::: {.pixel .TITULO}
-# LOS CUADERNOS
+LOS CUADERNOS
 :::
 
 ::: {.pixel .SUBTITULO}
-## La crisis del agua
+La crisis del agua
 :::
 :::{.pixel .CONTENIDO}
-### El agua es un recurso esencial para la vida, pero su disponibilidad y calidad están siendo amenazadas por diversos factores, como el cambio climático, la contaminación y el crecimiento demográfico. En este cuaderno, exploraremos los desafíos que enfrenta el agua a nivel global y local, así como las posibles soluciones para garantizar su acceso sostenible para las generaciones futuras.
+El agua es un recurso esencial para la vida, pero su disponibilidad y calidad están siendo amenazadas por diversos factores, como el cambio climático, la contaminación y el crecimiento demográfico. En este cuaderno, exploraremos los desafíos que enfrenta el agua a nivel global y local, así como las posibles soluciones para garantizar su acceso sostenible para las generaciones futuras.
+:::
+
+:::{.pixel .CONTENIDO .caja}
+El cambio climático está alterando los patrones de precipitación, lo que puede provocar sequías más frecuentes e intensas en algunas regiones, y lluvias torrenciales en otras. Esto afecta la disponibilidad de agua para el consumo humano, la agricultura y la industria, y aumenta el riesgo de desastres naturales como inundaciones y deslizamientos de tierra.
+:::
+
+::: {.pixel .CONTENIDO .caja}
+### VISUALIZACIÓN
+
+```{python}
+#| echo: false
+#| output: true
+import matplotlib.pyplot as plt
+
+plt.style.use('dark_background')
+plt.plot([1, 2, 3], [4, 5, 6], color='#3cbcfc')
+plt.show()
+```
 :::

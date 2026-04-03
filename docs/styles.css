@@ -8,11 +8,33 @@
 
 .TITULO{
   font-family: 'Press Start 2P', cursive;
-  font-size: 32px !important;
+  font-size: 3vw !important;
   color: #fcfcfc !important;
   text-align: center;
   display: block;
   padding: 72px 0!important;
+}
+
+.SUBTITULO{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px !important;
+    color: #f8b800;
+    display: block;
+    padding: 35px 0;
+    
+}
+
+.CONTENIDO{
+    color: #3cbcfc !important;
+    display: block;
+    padding: 30px 0;
+    outline: groove ; 
+    outline-color: #4428bc;
+    outline-width: 20px;
+    margin: 50px auto;
+    width: 85%;
+    max-width: 9000px;
+    text-align: justify;
 }
 
 .pixel{
@@ -20,30 +42,36 @@
     color: #f8b800;
     text-align: center;
     display: block;
-    padding: 24px 0;
+    padding: 35px 0;
+    word-wrap: break-word;
     
 }
-.CONTENIDO{
-    color: #4428bc !important;
-    text-align: center;
-    display: block;
-    padding: 24px 0;
-    
+
+.caja{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
 }
+
+
 body{
     background-color: #000000;
     background-image: 
         radial-gradient(#fcfcfc, #fcfcfc 1px, transparent 1px),
-        radial-gradient(#fce0a8, #fce0a8 2px, transparent 2px),
-        radial-gradient(#d8f878, #d8f878 3px, transparent 3px),
+        radial-gradient(#fce0a8, #fce0a8 2px, transparent 1px),
+        radial-gradient(#d8f878, #d8f878 3px, transparent 1px),
+        radial-gradient(#d8f878, #d8f878 4px, transparent 1px),
         radial-gradient(rgba(255,255,255,0.4), transparent 2px);
-
+        
     background-size: 
-        350px 350px,
+        300px 350px,
         421px 421px, 
-        513px 513px, 
+        513px 513px,
+        647px 647px, 
         277px 277px; 
-        background-attachment: fixed;
-
-
+    
+    background-attachment: fixed; 
 }

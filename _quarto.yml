@@ -4,9 +4,19 @@ project:
 
 website: 
   title: "HACKODS"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Inicio
 
 format: 
   html:
     theme: none
     css: styles.css
-    
+    self-contained: true 
+
+execute:
+  enabled: true
+
+jupyter: python3

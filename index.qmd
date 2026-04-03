@@ -2,4 +2,5 @@
 title: 'Test'
 author: 'Los cuadernos'
 format: 'dashboard'
-theme: 'cosmo'
+theme: 'darkly'
+---

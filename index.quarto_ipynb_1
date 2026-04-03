@@ -1,0 +1,51 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Análisis Narrativo Pro\"\n",
+        "format:\n",
+        "  html:\n",
+        "    theme: cosmo\n",
+        "    code-fold: true\n",
+        "    code-tools: true\n",
+        "    toc: true\n",
+        "    toc-depth: 3\n",
+        "    number-sections: true\n",
+        "\n",
+        ":::{.cr-section}\n",
+        "\n",
+        "## El Inicio de la Historia\n",
+        "\n",
+        "Bienvenidos a este recorrido. Al principio, nuestros datos se veían dispersos y sin una dirección clara. Observa el gráfico a la derecha: cada punto representa una medición inicial. @cr-grafico1\n",
+        "\n",
+        ":::{#cr-grafico1}"
+      ],
+      "id": "b00e4004"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "import plotly.express as px\n",
+        "df = px.data.iris()\n",
+        "# Gráfico de dispersión inicial\n",
+        "fig = px.scatter(df, x=\"sepal_width\", y=\"sepal_length\", color_discrete_sequence=['gray'])\n",
+        "fig.update_layout(template=\"simple_white\")\n",
+        "fig.show()"
+      ],
+      "id": "724f9454"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

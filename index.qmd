@@ -1,6 +1,15 @@
 ---
-title: 'Test'
-author: 'Los cuadernos'
-format: 'dashboard'
-theme: 'darkly'
+title: "Mi Historia con Scroll"
+format: 
+  html:
+    css: styles.css
+    toc: true
+    toc-location: left-body
+author: "Los cuadernos"
 ---
+
+## Una historia en movimiento
+Había una vez un joven llamado Alex, que vivía en un pequeño pueblo rodeado de montañas. Desde niño, Alex había soñado con explorar el mundo más allá de su hogar. Un día, decidió emprender un viaje para descubrir nuevos lugares y conocer diferentes culturas.
+
+## El viaje de Alex
+Alex comenzó su aventura caminando por senderos desconocidos, cruzando ríos y escalando montañas. Cada paso que daba lo acercaba a nuevas experiencias y desafíos. En su camino, conoció a personas amables que le enseñaron sobre sus tradiciones y formas de vida. Alex aprendió a apreciar la diversidad del mundo y a valorar las pequeñas cosas que a menudo pasamos por alto.

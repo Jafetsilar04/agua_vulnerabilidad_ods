@@ -1,3 +1,5 @@
-___
-# Prueba
-# Jafet vicepresidente de siafi
+---
+title: 'Test'
+author: 'Los cuadernos'
+format: 'dashboard'
+theme: 'cosmo'

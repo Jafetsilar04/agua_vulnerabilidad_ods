@@ -7,6 +7,6 @@ website:
 
 format: 
   html:
+    theme: none
     css: styles.css
-    toc: true
-    toc-location: left-body
+    

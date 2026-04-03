@@ -6,8 +6,44 @@
     box-sizing: border-box;
 }
 
-body{
+.TITULO{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 32px !important;
+  color: #fcfcfc !important;
+  text-align: center;
+  display: block;
+  padding: 72px 0!important;
+}
+
+.pixel{
     font-family: 'Press Start 2P', cursive;
-    background-color: #03071E;
-    color: #FAA307;
+    color: #f8b800;
+    text-align: center;
+    display: block;
+    padding: 24px 0;
+    
+}
+.CONTENIDO{
+    color: #4428bc !important;
+    text-align: center;
+    display: block;
+    padding: 24px 0;
+    
+}
+body{
+    background-color: #000000;
+    background-image: 
+        radial-gradient(#fcfcfc, #fcfcfc 1px, transparent 1px),
+        radial-gradient(#fce0a8, #fce0a8 2px, transparent 2px),
+        radial-gradient(#d8f878, #d8f878 3px, transparent 3px),
+        radial-gradient(rgba(255,255,255,0.4), transparent 2px);
+
+    background-size: 
+        350px 350px,
+        421px 421px, 
+        513px 513px, 
+        277px 277px; 
+        background-attachment: fixed;
+
+
 }

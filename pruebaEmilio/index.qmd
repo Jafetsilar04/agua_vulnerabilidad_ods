@@ -1,0 +1,18 @@
+---
+format :
+  html:
+    page-layout: full
+    embed-resources: true
+    grid:
+      body-width: 1200px
+echo : false
+theme:
+  light: flatly
+  dark: darkly
+warning: false
+toc: true
+---
+# Prueba Emilio
+
+### Análisis de Vulnerabilidad
+{{< embed notebook\003_Analisis_vulnerabilidad.ipynb#pruebaA >}}

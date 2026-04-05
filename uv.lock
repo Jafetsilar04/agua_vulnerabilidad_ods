@@ -15,61 +15,41 @@ name = "agua-vulnerabilidad-ods"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-<<<<<<< HEAD
-    { name = "geopandas" },
-    { name = "jupyter" },
-=======
     { name = "fiona" },
     { name = "folium" },
     { name = "geopandas" },
     { name = "jupyter" },
     { name = "mapclassify" },
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
     { name = "matplotlib" },
     { name = "notebook" },
     { name = "openpyxl" },
     { name = "pandas" },
     { name = "plotly" },
-<<<<<<< HEAD
-    { name = "scipy" },
-    { name = "seaborn" },
-=======
     { name = "pyarrow" },
     { name = "pyogrio" },
     { name = "scipy" },
     { name = "seaborn" },
     { name = "shapely" },
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
     { name = "xlrd" },
 ]
 
 [package.metadata]
 requires-dist = [
-<<<<<<< HEAD
-    { name = "geopandas", specifier = ">=1.1.3" },
-    { name = "jupyter", specifier = ">=1.1.1" },
-=======
     { name = "fiona", specifier = ">=1.10.1" },
     { name = "folium", specifier = ">=0.20.0" },
     { name = "geopandas", specifier = ">=1.1.3" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "mapclassify", specifier = ">=2.10.0" },
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "notebook", specifier = ">=7.5.5" },
     { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "pandas", specifier = ">=3.0.2" },
     { name = "plotly", specifier = ">=6.6.0" },
-<<<<<<< HEAD
-    { name = "scipy", specifier = ">=1.17.1" },
-    { name = "seaborn", specifier = ">=0.13.2" },
-=======
     { name = "pyarrow", specifier = ">=23.0.1" },
     { name = "pyogrio", specifier = ">=0.12.1" },
     { name = "scipy", specifier = ">=1.17.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "shapely", specifier = ">=2.1.2" },
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
     { name = "xlrd", specifier = ">=2.0.2" },
 ]
 
@@ -217,8 +197,6 @@ css = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "branca"
 version = "0.8.2"
 source = { registry = "https://pypi.org/simple" }
@@ -231,7 +209,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
 name = "certifi"
 version = "2026.2.25"
 source = { registry = "https://pypi.org/simple" }
@@ -343,8 +320,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "click"
 version = "8.3.2"
 source = { registry = "https://pypi.org/simple" }
@@ -381,7 +356,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
 name = "colorama"
 version = "0.4.6"
 source = { registry = "https://pypi.org/simple" }
@@ -526,8 +500,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "fiona"
 version = "1.10.1"
 source = { registry = "https://pypi.org/simple" }
@@ -563,7 +535,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
 name = "fonttools"
 version = "4.62.1"
 source = { registry = "https://pypi.org/simple" }
@@ -778,8 +749,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "joblib"
 version = "1.5.3"
 source = { registry = "https://pypi.org/simple" }
@@ -789,7 +758,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
 name = "json5"
 version = "0.14.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1122,8 +1090,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "mapclassify"
 version = "2.10.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1140,7 +1106,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
 name = "markupsafe"
 version = "3.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1334,8 +1299,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "networkx"
 version = "3.6.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1345,7 +1308,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
 name = "notebook"
 version = "7.5.5"
 source = { registry = "https://pypi.org/simple" }
@@ -1666,8 +1628,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "pyarrow"
 version = "23.0.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1704,7 +1664,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
 name = "pycparser"
 version = "3.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2059,8 +2018,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "scikit-learn"
 version = "1.8.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2099,7 +2056,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
 name = "scipy"
 version = "1.17.1"
 source = { registry = "https://pypi.org/simple" }
@@ -2272,8 +2228,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "threadpoolctl"
 version = "3.6.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2283,7 +2237,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66
 name = "tinycss2"
 version = "1.4.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2410,8 +2363,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/07/5a/377161c2d3538d199
 wheels = [
     { url = "https://files.pythonhosted.org/packages/1a/62/c8d562e7766786ba6587d09c5a8ba9f718ed3fa8af7f4553e8f91c36f302/xlrd-2.0.2-py2.py3-none-any.whl", hash = "sha256:ea762c3d29f4cca48d82df517b6d89fbce4db3107f9d78713e48cd321d5c9aa9", size = 96555, upload-time = "2025-06-14T08:46:37.766Z" },
 ]
-<<<<<<< HEAD
-=======
 
 [[package]]
 name = "xyzservices"
@@ -2421,4 +2372,3 @@ sdist = { url = "https://files.pythonhosted.org/packages/f6/08/3cb9f67a8d48021ac
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a8/a9/d23012099dc88ec69a29c6407b41d89681cb674c2043cd5b467c7e299c08/xyzservices-2026.3.0-py3-none-any.whl", hash = "sha256:503183d4b322bfebc3c50cdd21192aa3e81e36c5efbf9133d54ae82143e0576b", size = 94101, upload-time = "2026-03-30T14:42:24.608Z" },
 ]
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66

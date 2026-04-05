@@ -10,10 +10,6 @@ wheels/
 .venv
 
 # BLOQUEO DE DATOS
-<<<<<<< HEAD
-data/
-=======
 data/
 maps/
 .ipynb_checkpoints/
->>>>>>> 2aea2df87eb08e59d82f93020acaf42f69756a66

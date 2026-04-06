@@ -42,4 +42,17 @@ El agua es un recurso esencial para la vida, pero su disponibilidad y calidad es
 {{< embed notebook\003_Analisis_vulnerabilidad.ipynb#MapeoRestriccionesLegales >}}
 
 # Mapas
- 
+### MAPA 1: DISPONIBILIDAD DE AGUA SUBTERRÁNEA A NIVEL NACIONAL
+{{< embed notebook\004_Atlas_cartografico.ipynb#Mapa1 >}}
+
+### MAPA 2: BRECHA DE INFRAESTRUCTURA
+{{< embed notebook\004_Atlas_cartografico.ipynb#Mapa2 >}}
+
+### MAPA 3: RESTRICCIONES LEGALES DE EXTRACCIÓN (ZONAS DE VEDA)
+{{< embed notebook\004_Atlas_cartografico.ipynb#Mapa3 >}}
+
+# Soluciones
+### Impacto de estrategia hidrica 
+{{< embed notebook\005_simulacion_solucion.ipynb#Estrategia >}}
+### Transición de Infraestructura Hídrica: Impacto de Política 2024-2030
+{{< embed notebook\005_simulacion_solucion.ipynb#MapaAnimado >}}

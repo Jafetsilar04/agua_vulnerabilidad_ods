@@ -1,0 +1,199 @@
+---
+title: "Seguridad Hídrica 2030: Desmitificando la Crisis"
+author: "Los Cuadernos"
+date: last-modified
+lang: es
+format: 
+  dashboard:
+    orientation: rows
+    theme: darkly
+    embed-resources: false
+    scrolling: true
+execute:
+  echo: false   
+  warning: false
+  message: false
+---
+# 1. El Diagnóstico
+
+## Row {height=20%}
+
+::: {.valuebox icon="droplet-half" color="danger"}
+**75.8 Millones**
+Personas en riesgo hídrico crítico
+:::
+
+::: {.valuebox icon="graph-down" color="warning"}
+**0% de Conexión**
+El agua natural no garantiza infraestructura (r=0.04)
+:::
+
+::: {.valuebox icon="building" color="secondary"}
+**Cuautitlán-Pachuca**
+Zona Cero: 6.4M de habitantes bajo Veda y Déficit
+:::
+
+## Row {height=35%}
+
+### La Brecha entre la Naturaleza y la Gestión
+
+**La Metodología del Diagnóstico:** Para entender la raíz de la crisis, realizamos un cruce geoespacial exacto entre la oferta natural dictada por **CONAGUA (Disponibilidad de Acuíferos)** y el acceso real medido por el **Censo de Población de INEGI 2020 (Viviendas con agua entubada)** a nivel de localidad. 
+
+**Desmitificando la escasez:** A menudo se culpa al clima de la falta de agua. Sin embargo, nuestra evidencia estadística demuestra lo contrario. El valor **r = 0.04** indica una ausencia total de relación matemática entre el agua subterránea que otorga la naturaleza y la infraestructura construida por el Estado. Es decir, saber que un acuífero tiene superávit no garantiza que sus habitantes tengan tuberías en casa. La crisis no es climática, es un problema estructural de mala gestión y falta de inversión.
+
+## Row {height=600px}
+
+### 1. Evidencia Matemática: Disponibilidad Física vs. Cobertura Real {.fill}
+
+{{< embed 003_Analisis_vulnerabilidad.ipynb#fig-dispersion-mito >}}
+
+## Row {height=25%}
+
+### Las Dos Caras de la Crisis: Identificando Zonas de Intervención
+No podemos proponer una política pública genérica para todo el país. La siguiente tabla fue filtrada estratégicamente para contrastar los dos escenarios extremos que justifican nuestro modelo de intervención dual:
+1. **El Colapso Urbano (Ej. Cuautitlán-Pachuca):** Déficit extremo de agua natural y millones de habitantes concentrados. Aquí es financieramente viable aplicar **Bonos de Agua** financiados por privados para reparar la red y salvar el recurso existente.
+2. **El Abandono Rural (Ej. Península de Yucatán):** Abundancia masiva de agua natural (+2,059 Mm³), pero cobertura casi nula (7%) debido a la alta dispersión de sus poblados. Aquí la única solución costeable son los **Kioscos Comunitarios** de captación descentralizada.
+
+## Row {height=500px}
+
+### 2. Contraste Operativo: Escasez Urbana vs. Abandono Rural {.fill}
+
+{{< embed 003_Analisis_vulnerabilidad.ipynb#tbl-extremos >}}
+
+# 2. Atlas Cartográfico
+
+## Row {height=10%}
+
+### La Geografía de la Desigualdad: La Prueba Visual
+A continuación, contrastamos espacialmente el cruce de datos de CONAGUA e INEGI. El **Mapa 1** ilustra la disponibilidad hídrica natural; observamos un enorme superávit natural (tonos verdes/azules) en el sur del país.
+
+## Row {height=700px}
+
+### MAPA 1: La Realidad Natural (Disponibilidad Hídrica Subterránea) {.fill}
+{{< embed 004_Atlas_cartografico.ipynb#fig-mapa-naturaleza >}}
+
+## Row {height=15%}
+
+### El Contraste Social y el Abandono Rural
+El **Mapa 2** mapea la cobertura de infraestructura construida, revelando que esas mismas zonas de abundancia sufren un abandono total. **Justo debajo de este mapa, hemos anexado la tabla de "Cero Cobertura"**. Esta tabla es clave: demuestra que existen comunidades con 0% de acceso debido a que tienen poblaciones ínfimas (de 1 a 70 habitantes). Tender redes de tuberías para rancherías tan aisladas es financieramente inviable para el Estado, lo que **justifica plenamente nuestra propuesta de Kioscos Comunitarios** (captación y potabilización in situ).
+
+## Row {height=1000px}
+
+### MAPA 2 y ABANDONO RURAL: Brecha de Infraestructura y Comunidades con 0% Cobertura {.fill}
+{{< embed 004_Atlas_cartografico.ipynb#fig-mapa-social >}}
+
+## Row {height=15%}
+
+### El Bloqueo Industrial (Justificación del Modelo de Bonos)
+Si las comunidades rurales ultra-dispersas justifican los **Kioscos**, el siguiente mapa justifica nuestra propuesta de **Bonos de Agua** para las grandes urbes. 
+
+El **Mapa 3** ilustra las Zonas de Veda. El centro y norte industrial del país tiene prohibido por ley extraer más agua de los acuíferos sobreexplotados (zonas rojas y amarillas). Por lo tanto, la única alternativa legal para que la industria privada obtenga seguridad hídrica para sus operaciones es un **modelo de contraprestación**: invertir su propio capital para reparar fugas de la red pública a cambio de "créditos hídricos".
+
+## Row {height=700px}
+
+### MAPA 3: Estatus Legal de Extracción (Restricciones y Vedas de CONAGUA) {.fill}
+{{< embed 004_Atlas_cartografico.ipynb#fig-mapa-vedas >}}|        
+
+# 3. La Brecha Social
+
+## Row {height=15%}
+
+### El Agua como Reflejo de la Desigualdad
+
+Si la naturaleza no determina quién tiene infraestructura (como probamos en los mapas anteriores), entonces ¿qué lo hace? La respuesta es el nivel socioeconómico. 
+
+Al analizar los datos a nivel estatal, encontramos una **correlación fuerte y negativa (r = -0.761)** entre el Índice de Rezago Social (CONEVAL) y el suministro diario de agua. El agua no falta donde no llueve; falta donde hay pobreza, convirtiendo la crisis hídrica en un problema directo de desigualdad social (ODS 10).
+
+## Row {height=650px}
+
+### La Ecuación del Desarrollo: A mayor rezago social, menor suministro de agua {.fill}
+{{< embed 003_Analisis_vulnerabilidad.ipynb#fig-dispersion-rezago >}}
+
+## Row {height=15%}
+
+### Estancamiento Histórico y la Sensibilidad Social
+**El Poder de la Ecuación:** La línea de tendencia roja ($y = -20.26x + 56.48$) no es solo un dato estadístico; es el motor de nuestra política pública. Nos indica la "sensibilidad" de la pobreza frente al agua. Matemáticamente, demuestra que **si logramos inyectar suministro en los estados de la esquina inferior derecha** (como Guerrero o Chiapas), los forzaremos a desplazarse hacia la izquierda, cruzando la barrera del cero y sacándolos de la marginación.
+
+**El Fracaso del Gasto Público:** Como muestra el siguiente mapa de calor y el registro histórico, estados enteros llevan más de 14 años estancados en el mismo nivel crítico. Esto prueba que depender del presupuesto gubernamental anual ha fallado sistemáticamente. Se requiere urgente la entrada de inversión privada mediante nuestro modelo de Bonos y Kioscos.
+
+## Row {height=650px}
+
+### Evolución del Estancamiento Institucional (Suministro 2008-2022) {.fill}
+{{< embed All_Javivi.ipynb#fig-mapacalor-rezago >}} 
+
+## Row {height=400px}
+
+### Datos Históricos de Respaldo (CONEVAL e INEGI) {.tabset}
+
+#### Suministro Diario (CONEVAL)
+{{< embed 001_procesamiento_poblacion.ipynb#tabla-historico-suministro >}}
+
+#### Agua Entubada (INEGI)
+{{< embed 001_procesamiento_poblacion.ipynb#tabla-historico-entubada >}}
+
+#### Rezago Social (CONEVAL)
+{{< embed 001_procesamiento_poblacion.ipynb#tabla-historico-rezago >}}
+
+# 4. Estrategia 2030
+
+## Row {height=20%}
+
+::: {.valuebox icon="people-fill" color="success"}
+**31.4 Millones**
+Personas rescatadas del riesgo crítico
+:::
+
+::: {.valuebox icon="droplet" color="info"}
+**573 Mm³ Anuales**
+Volumen vital gestionado por Kioscos
+:::
+
+::: {.valuebox icon="shield-check" color="secondary"}
+**41.4% de Éxito**
+Simulación realista (Modelo con fricción)
+:::
+
+## Row {height=30%}
+
+### Propuesta: Modelo de Contraprestación e Inversión Privada
+Para resolver la desconexión entre abundancia natural y carencia social, nuestra estrategia se aleja del gasto público tradicional y adopta un modelo inspirado en el sector energético (Autoabastecimiento):
+
+1. **Bonos de Agua (Sectores Urbanos):** Dirigido a grandes industrias en zonas de veda. Al financiar la reparación de fugas en la red pública, las empresas obtienen "Créditos de Agua" para su propia operación. El Estado no desembolsa capital; paga con el recurso recuperado.
+2. **Kioscos Comunitarios (Sectores Rurales):** Las concesionarias de gran escala asumen la construcción de módulos de captación y potabilización en comunidades con 0% de cobertura. A cambio, obtienen la renovación de sus permisos de extracción bajo un esquema de responsabilidad social vinculante.
+
+**Confiabilidad y Fricción:** No proyectamos un éxito del 100% porque el modelo reconoce la **fricción operativa** (geografía difícil y burocracia). El éxito del **41.4%** representa una meta alcanzable que prioriza la viabilidad técnica sobre la utopía política.
+
+## Row {height=650px}
+
+### 1. El Impacto Masivo: Reducción de la Vulnerabilidad Nacional
+La siguiente visualización contrasta la población total en riesgo hídrico extremo frente a la proyección tras implementar la compensación privada. El objetivo es reducir la población vulnerable de **75.8 a 44.4 millones**, logrando un rescate histórico de ciudadanos que hoy no cuentan con suministro básico garantizado.
+
+{{< embed 005_simulacion_solucion.ipynb#fig-impacto-2030 >}}
+
+## Row {height=800px}
+
+### 2. Transición Cartográfica: Evolución de la Infraestructura
+Este mapa animado muestra la transición geográfica de la cobertura hídrica. Observe cómo el "rojo de abandono" en las zonas rurales del sur y las zonas de veda del centro comienza a ceder ante tonos más claros. Es la representación espacial de cómo la infraestructura privada llega a donde el Estado no ha podido llegar en los últimos 20 años.
+
+{{< embed 005_simulacion_solucion.ipynb#fig-mapa-animado >}}
+
+## Row {height=20%}
+
+### 3. Validación Social: El Desplazamiento de la Pobreza
+¿Cómo se traduce el agua en bienestar? Al aplicar nuestra ecuación de regresión ($y = -20.26x + 56.48$), simulamos el efecto de "inyectar" suministro en los estados más pobres. 
+
+**Gráfica Izquierda:** Muestra la situación actual, donde estados como Guerrero y Oaxaca están atrapados en el cuadrante de alta marginación (arriba a la izquierda). 
+**Gráfica Derecha:** Muestra el impacto tras el aumento de suministro por los Kioscos. Observe el **desplazamiento hacia la derecha**: los estados "viajan" por la línea de tendencia, cruzando el umbral hacia niveles de rezago social negativos (zonas de mayor bienestar).
+
+## Row {height=650px}
+
+### Situación Actual (Línea Base) {.fill}
+{{< embed 005_simulacion_solucion.ipynb#fig-antes-aumento >}}
+
+### Impacto Social Proyectado (Simulación 2030) {.fill}
+{{< embed 005_simulacion_solucion.ipynb#fig-despues-aumento >}}
+
+## Row {height=10%}
+
+### Conclusión Técnica: Sensibilidad del Índice
+La pendiente de **-20.26** es la clave del éxito: matemáticamente, cada incremento del 10% en el suministro gestionado por Kioscos reduce el rezago social en **0.5 unidades**. Esto demuestra que el agua no es solo un recurso vital, sino la palanca más eficiente para reducir la desigualdad estructural en México.
